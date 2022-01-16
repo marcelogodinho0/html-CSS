@@ -32,17 +32,23 @@ nav a{
     color: rgb(255, 94, 0);
     
 }
+nav a:hover{
+    font-weight: 400;
+    color: rgb(255, 146, 57);
+    transition: 0,3s;
+}
 
 main{
     text-align:center;
     width: 50vh;
-    margin-left: 250px
+    margin:auto;
+
 }
 
 main p{
     text-align:center;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+       
     
 }
 
@@ -56,9 +62,10 @@ main h1{
 }
 
 .poster img{
+    display: flex;
     margin-left: 250px;
     width: 150px;
-
+    margin: auto;
 }
 
 footer p{
