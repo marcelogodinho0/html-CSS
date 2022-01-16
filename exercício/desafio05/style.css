@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+
+:root{
+
+    --fonte1: 'Poppins', sans-serif;
+    --fonte2: Verdana, Tahoma, cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,12 +26,14 @@ header {
 }
 
 header > h1{
+    font-family: var(--fonte1);
     padding-top: 50px;
     font-variant: small-caps;
 }
 
 header >p{
     padding-bottom: 50px;
+    font-family: var(--fonte2);
 }
 
 a{
@@ -46,9 +56,16 @@ section .normal{
 section.imagem {
     background-color: rgba(0, 0, 0, 0.281);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 section.imagem > p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.295);
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
 }
